@@ -1,8 +1,13 @@
-export enum RelativePlatormPath {
+enum RelativePlatormPath {
   ios = "./ios",
   android = "./android",
 }
 
-export enum Libraries {
+enum Libraries {
   navigation = 'react-navigation'
+}
+
+export {
+  RelativePlatormPath,
+  Libraries
 }
